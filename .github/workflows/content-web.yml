@@ -1,4 +1,4 @@
-name: content-web 
+name: content-web
 
 on:
         push:
@@ -7,7 +7,7 @@ on:
                 paths:
                         - 'content-web/**'
 
-workflow_dispatch:
+        workflow_dispatch:
 
 env:
         imageRepository: 'content-web'
