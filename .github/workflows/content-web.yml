@@ -1,11 +1,11 @@
 name: content-web
 
 on:
-push:
-        branches:
-                - main
-        paths:
-                - 'content-web/**'
+        push:
+                branches:
+                        - main
+                paths:
+                        - 'content-web/**'
 
 workflow_dispatch:
 
