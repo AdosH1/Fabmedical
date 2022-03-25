@@ -1,4 +1,4 @@
-name: content-web
+name: content-web 
 
 on:
         push:
